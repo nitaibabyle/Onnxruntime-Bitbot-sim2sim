@@ -20,7 +20,7 @@ Using "add_library" to link to onnx lib, which was demonstrated in CMakeLists.tx
 The code to achieve humanoid reinforcement learning sim2sim with an onnx policy to use in BITbot-Mujoco, with the data class template followed BipedControlGaitLab from HLQ
 
 
-The improve is :
+The contribution were:
 
 
 (1) Add a new thread, use cv and mutex to manage the memory.
