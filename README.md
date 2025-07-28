@@ -29,7 +29,7 @@ The contribution were:
 (2) Atomic bool trigger flag.
 
 
-(3) The policy was called once in main function every four times run.
+(3) The policy called frequency was depending on the main function every times run counter.
 
 
 Due to the onnx prediction time was short, there was no calculation result buffer and IO queue consideration.
