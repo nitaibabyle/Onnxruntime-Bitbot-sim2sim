@@ -1,6 +1,6 @@
 
 #include "onnx.hpp"
-wheel_model.RL_give_model("/home/bhrrobot/zjt_bitbot_simulate/20231103bitbotkuafu/bitbot-mujoco-demo_RL_wheelleg/HLQwalkingLib/onnx_model/policy_2.onnx");
+wheel_model.RL_give_model("path_to/policy_2.onnx");
 int main()
 	{
 while (1)
