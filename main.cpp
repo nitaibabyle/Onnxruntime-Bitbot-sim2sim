@@ -3,8 +3,8 @@
 wheel_model.RL_give_model("path_to/your_policy.onnx");
 int main()
 	{
-while (1)
-{
+		while (1)
+		{
 		// angular velocity
 		Eigen::Vector3d base_ang_vel;
 		base_ang_vel << actRobotClass.Torso.jointAngleV[3], actRobotClass.Torso.jointAngleV[4], actRobotClass.Torso.jointAngleV[5];
@@ -139,5 +139,5 @@ while (1)
 		refRobotClass.RArm.jointAngle.block(0, 0, 3, 1) = pos_action_scale * (output.block(11, 0, 3, 1).cast<double>()) + defult_dof.block(11, 0, 3, 1).cast<double>();
 
 		return 0;
-}
+		}
 	}
