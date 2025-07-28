@@ -1,6 +1,6 @@
 
 #include "onnx.hpp"
-wheel_model.RL_give_model("path_to/policy_2.onnx");
+wheel_model.RL_give_model("path_to/your_policy.onnx");
 int main()
 	{
 while (1)
